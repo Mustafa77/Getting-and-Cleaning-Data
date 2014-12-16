@@ -1,3 +1,15 @@
+
+#CodeBook for the tidy dataset  
+##Source of the Dataset: This dataset is based on the "Human Activity Recognition Using Smartphones" project which was extracted from the following website:"http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"  
+
+##Processing of Variables  
+The original dataset about subjects and activity had training and test datasets; so we merged these datasets and process merged variables accordingley. We included variables that contained a summarized information (mean & standard deviation).
+
+For anyone who want to analyze this final tidy dataset should notice the variables having to do with mean or standard had been extracted and named with an ending like "mean()-X and std()-X"- like the following example:
+fBodyAccMag-mean()"  "fBodyAccMag-std()"
+"fBodyBodyAccJerkMag-mean()" "fBodyBodyAccJerkMag-std()" 
+"fBodyBodyGyroMag-mean()" "fBodyBodyGyroMag-std()
+
 "activity" 
 "subject" 
 "tBodyAcc-mean()-X" 
