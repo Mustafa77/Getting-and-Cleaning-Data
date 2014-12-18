@@ -1,9 +1,5 @@
 
 
-#  Exploratory Data Analysis
-#  Dec-2014: Project 2- plot6.R
-#   Making a plot for Motor Vehicle Emissions in Baltimore vs LA
-
 ##12/20/2014--Getting-and-Cleaning-Data
 
 #1.Data Extraction:downloading and unzipping file 
