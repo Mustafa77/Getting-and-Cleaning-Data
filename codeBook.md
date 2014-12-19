@@ -1,5 +1,7 @@
 
-#CodeBook for the tidy dataset  
+#CodeBook for the tidy dataset   
+#####You will find at the end the original CodeBook that had been made available to us with the original datasets.    
+
   
 
 
@@ -27,7 +29,7 @@ fBodyAccMag-mean()"
 "fBodyBodyGyroMag-mean()"   
 "fBodyBodyGyroMag-std()  
 
-
+### For more information about the original datasets and their variables before merging and processing of variables, please read the following **CodeBook** 
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
