@@ -29,9 +29,9 @@ fBodyAccMag-mean()"
 "fBodyBodyGyroMag-mean()"   
 "fBodyBodyGyroMag-std()  
 
-##### For* more information about the original datasets and their variables before merging and processing of variables, please read the following:*    
+##### *For more information about the original datasets and their variables before merging and processing of variables, please read the following:*    
 
-##** Original CodeBook**     
+## ** Original CodeBook**     
 
 
 ==================================================================
