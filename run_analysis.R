@@ -13,8 +13,8 @@ unzip("Dataset.zip")
 ##List of files in the folder UCI HAR Dataset
 
 location <- file.path( getwd(), "UCI HAR Dataset")
-files<-list.files(location, recursive=TRUE)
-files
+Txt_data<-list.files(location, recursive=TRUE)
+Txt_data
 
 #Reading data from files of Activity, Subject & Fearures from test & train folders:
 
