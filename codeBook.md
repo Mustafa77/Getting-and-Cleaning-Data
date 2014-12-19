@@ -18,7 +18,7 @@ After unzipping the files; we went over the list of files in the folder UCI HAR 
 
 ####Please notice the following:
 * We use a simple programing to label activity instead of using the file in UCI HAR Dataset.
-* For anyone who want to analyze this final tidy dataset should notice the variables having to do with mean or standard had been extracted and named with an ending like "mean()-X and std()-X"- like the *following examples*:   
+* For anyone who want to analyze this final tidy dataset should notice the summarized variables with an ending like "mean()-X and std()-X"- like the **following examples**:   
 
 fBodyAccMag-mean()"   
 "fBodyAccMag-std()"   
