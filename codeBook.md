@@ -16,7 +16,7 @@ After unzipping the files; we went over the list of files in the folder UCI HAR 
 * First, we started by reading those datasets first (subjects activity, and features). 
 * second, we merged training and test datasets to create one data set.
 * Third, we did more processing of variables to include varialbes with summarized information (mean & standard deviation) in the final dataset
-* Final dataset **tidy_data** has all variables (subjects activity, and features)from training and test datasets.
+* Final dataset **tidy_data** has all variables (subjects activity, and features) from training and test datasets.
 
 
 ####Please notice the following:
