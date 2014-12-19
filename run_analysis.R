@@ -12,24 +12,24 @@ unzip("Dataset.zip")
 #2. Data Managment
 ##List of files in the folder UCI HAR Dataset
 
-path <- file.path( getwd(), "UCI HAR Dataset")
-files<-list.files(path, recursive=TRUE)
+location <- file.path( getwd(), "UCI HAR Dataset")
+files<-list.files(location, recursive=TRUE)
 files
 
 #Reading data from files of Activity, Subject & Fearures from test & train folders:
 
-FeaturesTrain_data <- read.table(file.path(path, "train", "X_train.txt"),header = FALSE)
-FeaturesTest_data  <- read.table(file.path(path, "test" , "X_test.txt" ),header = FALSE)
+FeaturesTrain_data <- read.table(file.path(location, "train", "X_train.txt"),header = FALSE)
+FeaturesTest_data  <- read.table(file.path(location, "test" , "X_test.txt" ),header = FALSE)
 head(FeaturesTest_data)
 tail(FeaturesTest_data)
 
-ActivityTrain_data <- read.table(file.path(path, "train", "Y_train.txt"),header = FALSE)
-ActivityTest_data  <- read.table(file.path(path, "test" , "Y_test.txt" ),header = FALSE)
+ActivityTrain_data <- read.table(file.path(location, "train", "Y_train.txt"),header = FALSE)
+ActivityTest_data  <- read.table(file.path(location, "test" , "Y_test.txt" ),header = FALSE)
 head(ActivityTest_data )
 tail(ActivityTest_data )
 
-SubjectTrain_data <- read.table(file.path(path, "train", "subject_train.txt"),header = FALSE)
-SubjectTest_data  <- read.table(file.path(path, "test" , "subject_test.txt"),header = FALSE)
+SubjectTrain_data <- read.table(file.path(location, "train", "subject_train.txt"),header = FALSE)
+SubjectTest_data  <- read.table(file.path(location, "test" , "subject_test.txt"),header = FALSE)
 head(SubjectTest_data)
 tail(SubjectTest_data)
 
