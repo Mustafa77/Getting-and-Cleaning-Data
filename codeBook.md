@@ -1,6 +1,6 @@
 
 #CodeBook for the tidy dataset   
- <span style="color:red">#####You will find at the end the original CodeBook that had been made available to us with the original datasets. </span>   
+ <span style="color:red">You will find at the end the original CodeBook that had been made available to us with the original datasets. </span>   
 
   
 
